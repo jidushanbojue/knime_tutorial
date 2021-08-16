@@ -1,0 +1,57 @@
+#	Name:			4jsz_ligand
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:51:01 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:51:01 2018
+
+@<TRIPOS>MOLECULE
+4jsz_ligand
+   17    17     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C01        35.2060   -2.1010   10.6280 C.ar      1 MOL        -0.1500 
+      2 C02        34.5840   -2.9800   11.5140 C.ar      1 MOL        -0.1500 
+      3 C03        33.7340   -2.4900   12.5030 C.ar      1 MOL        -0.1500 
+      4 C04        33.4750   -1.1150   12.5850 C.ar      1 MOL        -0.0090 
+      5 C05        34.1200   -0.2360   11.7140 C.ar      1 MOL        -0.1500 
+      6 C06        34.9820   -0.7290   10.7360 C.ar      1 MOL        -0.1500 
+      7 S07        32.3560   -0.4160   13.7950 S.o2      1 MOL         1.4470 
+      8 O09        31.3980    0.4000   13.0560 O.2       1 MOL        -0.6500 
+      9 O08        31.9160   -1.3150   14.8590 O.2       1 MOL        -0.6500 
+     10 NP0        31.2540   -1.4720   13.2640 N.am      1 MOL        -0.9780 
+     11 H1         35.8930   -2.4840    9.8750 H         1 MOL         0.1500 
+     12 H2         34.7710   -4.0510   11.4480 H         1 MOL         0.1500 
+     13 H3         33.2650   -3.1880   13.1950 H         1 MOL         0.1500 
+     14 H4         33.9680    0.8410   11.8240 H         1 MOL         0.1500 
+     15 H5         35.5110   -0.0340   10.0860 H         1 MOL         0.1500 
+     16 H6         30.5500   -1.0340   13.8260 H         1 MOL         0.4200 
+     17 H7         31.5280   -2.2860   13.7750 H         1 MOL         0.4200 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    1    6 ar   
+     3    2    3 ar   
+     4    3    4 ar   
+     5    4    5 ar   
+     6    4    7 1    
+     7    5    6 ar   
+     8    7    8 2    
+     9    7    9 2    
+    10    7   10 am   
+    11    1   11 1    
+    12    2   12 1    
+    13    3   13 1    
+    14    5   14 1    
+    15    6   15 1    
+    16   10   16 1    
+    17   10   17 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CB 2 CB 3 CB 4 CB 5 CB 6 CB 11 HC 12 HC 13 HC 14 HC 15 HC 16 HNSO \
+17 HNSO 8 O2S 9 O2S 10 NSO2 7 SO2N 

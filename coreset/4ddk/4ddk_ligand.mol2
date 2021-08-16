@@ -1,0 +1,58 @@
+#	Name:			4ddk_ligand
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:49:06 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:49:07 2018
+
+@<TRIPOS>MOLECULE
+4ddk_ligand
+   17    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 OAA       -15.3860   -0.3440   -0.1040 O.co2     1 UNNAMED    -0.9000 
+      2 CAI       -15.7330   -0.2650    1.0980 C.2       1 UNNAMED     0.9790 
+      3 OAB       -16.9060    0.1570    1.3230 O.co2     1 UNNAMED    -0.9000 
+      4 CAJ       -14.8400   -0.5650    2.1750 C.ar      1 UNNAMED    -0.1790 
+      5 CAE       -13.4970   -0.9630    2.0130 C.ar      1 UNNAMED    -0.1500 
+      6 CAL       -12.6960   -1.2190    3.0980 C.ar      1 UNNAMED     0.0825 
+      7 OAH       -11.3870   -1.6300    3.1160 O.3       1 UNNAMED    -0.3625 
+      8 CAF       -11.0330   -1.8330    4.5400 C.3       1 UNNAMED     0.5600 
+      9 OAG       -12.1840   -1.3570    5.3410 O.3       1 UNNAMED    -0.3625 
+     10 CAK       -13.1700   -1.0910    4.3850 C.ar      1 UNNAMED     0.0825 
+     11 CAD       -14.4410   -0.6870    4.5850 C.ar      1 UNNAMED    -0.1500 
+     12 CAC       -15.2870   -0.4210    3.5050 C.ar      1 UNNAMED    -0.1500 
+     13 H1        -13.0899   -1.0687    1.0139 H         1 UNNAMED     0.1500 
+     14 H2        -10.1318   -1.2548    4.7920 H         1 UNNAMED     0.0000 
+     15 H3        -10.8509   -2.8999    4.7362 H         1 UNNAMED     0.0000 
+     16 H4        -14.8112   -0.5670    5.5967 H         1 UNNAMED     0.1500 
+     17 H5        -16.3047   -0.0983    3.6927 H         1 UNNAMED     0.1500 
+@<TRIPOS>BOND
+     1    1    2 ar   
+     2    2    3 ar   
+     3    2    4 1    
+     4    4    5 ar   
+     5    4   12 ar   
+     6    5    6 ar   
+     7    6    7 1    
+     8    6   10 ar   
+     9    7    8 1    
+    10    8    9 1    
+    11    9   10 1    
+    12   10   11 ar   
+    13   11   12 ar   
+    14    5   13 1    
+    15    8   14 1    
+    16    8   15 1    
+    17   11   16 1    
+    18   12   17 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 UNNAMED     1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 8 CR 4 CB 5 CB 6 CB 10 CB 11 CB 12 CB 2 CO2M 13 HC 14 HC 15 HC \
+16 HC 17 HC 1 O2CM 3 O2CM 7 OC=C 9 OC=C 

@@ -1,0 +1,66 @@
+#	Name:			3lka_ligand
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:51:16 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:51:16 2018
+
+@<TRIPOS>MOLECULE
+3lka_ligand
+   21    21     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          2.7450   -4.7310    7.8280 C.ar      1 MOL        -0.1500 
+      2 N1          3.4750   -3.3440    4.7420 N.am      1 MOL        -0.9780 
+      3 O1          5.4410   -6.4610    9.5740 O.3       1 MOL        -0.3625 
+      4 S1          2.0780   -4.1290    5.2360 S.o2      1 MOL         1.4470 
+      5 C2          3.6430   -5.1340    8.8060 C.ar      1 MOL        -0.1500 
+      6 O2          2.3380   -4.7960    3.9880 O.2       1 MOL        -0.6500 
+      7 C3          4.6430   -6.0480    8.5280 C.ar      1 MOL         0.0825 
+      8 O3          2.2040   -2.6620    5.3820 O.2       1 MOL        -0.6500 
+      9 C4          4.6930   -6.5920    7.2510 C.ar      1 MOL        -0.1500 
+     10 C5          2.9820   -5.0200    6.4950 C.ar      1 MOL        -0.0090 
+     11 C6          6.8200   -6.8730    9.4170 C.3       1 MOL         0.2800 
+     12 C7          3.8370   -6.1030    6.2570 C.ar      1 MOL        -0.1500 
+     13 H1          1.8370   -4.2190    8.1170 H         1 MOL         0.1500 
+     14 H2          3.8940   -4.2280    5.1300 H         1 MOL         0.4200 
+     15 H3          3.3100   -3.7090    3.7760 H         1 MOL         0.4200 
+     16 H4          3.5580   -4.7280    9.8050 H         1 MOL         0.1500 
+     17 H5          5.3930   -7.3970    7.0370 H         1 MOL         0.1500 
+     18 H6          7.2920   -6.8860   10.4050 H         1 MOL         0.0000 
+     19 H7          7.3510   -6.1630    8.7760 H         1 MOL         0.0000 
+     20 H8          6.8580   -7.8750    8.9860 H         1 MOL         0.0000 
+     21 H9          3.7890   -6.6160    5.3180 H         1 MOL         0.1500 
+@<TRIPOS>BOND
+     1    5    1 ar   
+     2    1   10 ar   
+     3    4    2 am   
+     4    7    3 1    
+     5    3   11 1    
+     6    4    6 2    
+     7    4    8 2    
+     8   10    4 1    
+     9    5    7 ar   
+    10    7    9 ar   
+    11    9   12 ar   
+    12   10   12 ar   
+    13    1   13 1    
+    14    2   14 1    
+    15    2   15 1    
+    16    5   16 1    
+    17    9   17 1    
+    18   11   18 1    
+    19   11   19 1    
+    20   11   20 1    
+    21   12   21 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 11 CR 1 CB 5 CB 7 CB 9 CB 10 CB 12 CB 13 HC 16 HC 17 HC 18 HC \
+19 HC 20 HC 21 HC 14 HNSO 15 HNSO 6 O2S 8 O2S 3 OC=C \
+2 NSO2 4 SO2N 

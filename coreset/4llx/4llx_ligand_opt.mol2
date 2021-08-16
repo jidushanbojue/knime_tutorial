@@ -1,0 +1,59 @@
+#	Name:			4llx_ligand
+#	Creating user name:	suminyi
+#	Creation time:		Sun Sep 30 06:50:59 2018
+
+#	Modifying user name:	suminyi
+#	Modification time:	Sun Sep 30 06:50:59 2018
+
+@<TRIPOS>MOLECULE
+4llx_ligand
+   18    18     1     1     0
+SMALL
+MMFF94_CHARGES
+
+
+@<TRIPOS>ATOM
+      1 C1          5.4850   11.3470   45.0450 C.3       1 MOL         0.1435 
+      2 C2          4.7070   12.3930   44.2820 C.ar      1 MOL         0.1665 
+      3 C3          4.7060   12.4320   42.8980 C.ar      1 MOL        -0.1500 
+      4 C4          4.0360   13.4780   42.2900 C.ar      1 MOL         0.1665 
+      5 C5          3.9310   13.5810   40.7860 C.3       1 MOL         0.1435 
+      6 N6          3.4260   14.4440   42.9940 N.ar      1 MOL        -0.6200 
+      7 C7          3.4620   14.2460   44.3040 C.ar      1 MOL         0.7200 
+      8 N8          2.8520   15.1230   45.0680 N.pl3     1 MOL        -0.9000 
+      9 N9          4.0630   13.3120   45.0100 N.ar      1 MOL        -0.6200 
+     10 H           5.7850   10.5240   44.3950 H         1 MOL         0.0000 
+     11 H1          4.8860   10.9400   45.8610 H         1 MOL         0.0000 
+     12 H2          6.3850   11.7910   45.4750 H         1 MOL         0.0000 
+     13 H3          5.2150   11.6710   42.3160 H         1 MOL         0.1500 
+     14 H4          3.5980   14.5740   40.4760 H         1 MOL         0.0000 
+     15 H5          3.2170   12.8470   40.4130 H         1 MOL         0.0000 
+     16 H6          4.8950   13.3810   40.3210 H         1 MOL         0.0000 
+     17 H7          2.5670   16.0060   44.6690 H         1 MOL         0.4000 
+     18 H8          3.1530   15.0480   46.0210 H         1 MOL         0.4000 
+@<TRIPOS>BOND
+     1    1    2 1    
+     2    2    3 ar   
+     3    2    9 ar   
+     4    3    4 ar   
+     5    4    5 1    
+     6    4    6 ar   
+     7    6    7 ar   
+     8    7    8 1    
+     9    7    9 ar   
+    10    1   10 1    
+    11    1   11 1    
+    12    1   12 1    
+    13    3   13 1    
+    14    5   14 1    
+    15    5   15 1    
+    16    5   16 1    
+    17    8   17 1    
+    18    8   18 1    
+@<TRIPOS>SUBSTRUCTURE
+     1 MOL         1 PERM              0 ****  ****    0 ROOT 
+@<TRIPOS>NORMAL
+@<TRIPOS>ALT_TYPE
+MMFF94_ALT_TYPE_SET 
+MMFF94 1 CR 5 CR 2 CB 3 CB 4 CB 7 CB 10 HC 11 HC 12 HC 13 HC 14 HC 15 HC \
+16 HC 17 HNCN 18 HNCN 6 NPYD 9 NPYD 8 NC=N 
